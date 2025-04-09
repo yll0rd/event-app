@@ -1,5 +1,5 @@
-import { getAttendeesCountForDashboard } from '@/utils/attendees'
-import { getCurrentUser } from '@/utils/users'
+import { getAttendeesCountForDashboard } from "@/utils/attendees"
+import { getCurrentUser } from "@/utils/users"
 
 const Home = async () => {
   const user = await getCurrentUser()
@@ -12,6 +12,7 @@ const Home = async () => {
       </div>
     </div>
   )
+
 }
 
 export default Home
